@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> My porfolio </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">   
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="topnav"> <!--Top navigation bar-->
+                <div class="top-row">
+                    <h1 class="fullname">Truong Nguyen - John</h1>
+                    <h2>
+                        <i class= "fas fa-envelope" class="other-infor"></i>nguyenquoctruong11@gmail.com &nbsp;&nbsp;
+                    </h2>
+                    <h2>
+                        <i class= "fas fa-phone" class="other-infor"></i>+84 07744 08427 &nbsp;&nbsp;
+                    </h2>   
+                </div>
+                <nav class="navbar">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills and Certifications</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            </header>
+
+        <main class="main-body">
+            <div id="home"> <!--Home section-->
+                <img src="Picture1.jpg" alt="Profile Picture" class="profile-picture">
+                <div class="home-text">
+                    <h1>
+                        Hi, I am John!<i class="fas fa-hand-paper" style="color:#203347"></i>
+                    </h1>
+                    <p>I am a dedicated Project Manager with a passion for leading teams to success. Explore my projects and get to know more about me!</p>
+                </div>
+            </div>
+            <div id="about"> <!--About Me section-->
+                <h2>About Me</h2>
+                <p>I have over 5 years of experience in project management, specializing in agile methodologies and team leadership. My goal is to deliver high-quality projects on time and within budget while fostering a collaborative team environment.</p>       
+
+            </div>
+            <div id="projects"><!--Projects section-->
+                <h2>Projects</h2>
+                <ul>
+                    <li>
+                        <h3>Project Alpha</h3>
+                        <p>A comprehensive project management tool designed to streamline workflows and enhance team collaboration.</p>
+                    </li>
+                    <li>
+                        <h3>Project Beta</h3>
+                        <p>An innovative mobile application that helps users track their daily tasks and improve productivity.</p>
+                    </li>
+                    <li>
+                        <h3>Project Gamma</h3>
+                        <p>A web-based platform for managing client relationships and improving customer satisfaction.</p>
+                    </li>
+                </ul>
+            </div>
+            <div id="skills"> <!--Skills and Certifications section-->
+                <h2>Skills and Certifications</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <img src="pmp.png" alt="Java Logo">
+                        <h3>PMP</h3>
+                        <p>5 years experience</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="BA.png" alt="React Logo">
+                        <h3>Business Analysis</h3>
+                        <p>2 years experience</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="ielts.jpg" alt="Node.js Logo">
+                        <h3>IELTS</h3>
+                        <p>Score 8.0</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="ibm.jpg" alt="IBM logo">
+                        <h3>IBM software engineer</h3>
+                        <p>1.5 years experience</p>
+                    </div>
+
+                
+                </div>
+            <h2>Recommendation</h2>
+            <div class="Recommendation-section"> <!--Recommendation section-->
+                
+                    <div class="comment-card">
+                        <p>"Truong is an exceptional project manager who consistently delivers results. His leadership and communication skills are top-notch."</p>
+                    </div>
+
+                    <div class="comment-card">
+                        <p>"Working with Truong has been a pleasure. He is organized, proactive, and always goes the extra mile to ensure project success."</p>
+                    </div>
+                    <div class="comment-card">
+                        <p>"Truong's expertise in project management has been invaluable to our team. He has a keen eye for detail and a strategic approach to problem-solving."</p>
+                    </div>
+                
+            </div>
+
+            
+                    
+            <section class="contact-form">
+                <h2 id="leave-a-recommendation">Leave a Recommendation</h2>
+                <fieldset>
+                    <form id="recommendation-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br><br>
+                        
+                        <label for="comment">Recommendation:</label>
+                        <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+                        
+                        <input type="submit" value="Submit">
+                    </form>
+            </fieldset>
+            </section>
+        
+        </main>
+    </body>
+</html>
